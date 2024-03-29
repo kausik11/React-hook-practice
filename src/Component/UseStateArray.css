@@ -1,0 +1,22 @@
+.container{
+    max-width: 300px;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    border-radius: 10px;
+    font-size: 10px;
+}
+button{
+    border: none;
+    background-color: chartreuse;
+    padding: 10px;
+    border-radius: 5px;
+    color: aliceblue;
+    cursor: pointer;
+ }
+ .headings{
+    background-color: rgb(222, 225, 115);
+    padding: 10px;
+    border-radius: 30px;
+ }

@@ -1,0 +1,22 @@
+*{
+    font-size: 20px;
+}
+.show{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+.show h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 60px;
+}
+.show button{
+   border: none;
+   background-color: chartreuse;
+   padding: 10px;
+   border-radius: 5px;
+   color: aliceblue;
+}
