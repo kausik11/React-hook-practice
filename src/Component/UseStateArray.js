@@ -12,6 +12,7 @@ function UseStateArray() {
         {id :2, myname:'universe', age:'33'}
     ]
 
+
    
 
     const[myarray,setArray] = useState(BioData);
