@@ -1,0 +1,35 @@
+form{
+    background-color: aqua;
+    max-width: 300px;
+    margin: 150px auto;
+    padding: 30px;
+    height: 200px;
+    border-radius: 10px;
+    
+}
+.contain{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+    margin-bottom: 5px;
+
+}
+.contain label{
+    font-size: 18px;
+    font-weight: 700;
+}
+.contain input{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 0 5px;
+}
+button{
+    border: none;
+    background-color: chartreuse;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(14, 14, 14);
+    font-size: 18px;
+ }
