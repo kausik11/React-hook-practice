@@ -1,5 +1,7 @@
 import './App.css';
-import Form from './Component/Forms/Form';
+import UseEffect1 from './Component/UseEffect/UseEffect1';
+import UseEffect2 from './Component/UseEffect/UseEffect2';
+// import Form from './Component/Forms/Form';
 // import DeleteBtn from './Component/DeleteBtn.js';
 // import ShortCircuit from './Component/ShortCircuit.js';
 // import First from'./Component/First.js';
@@ -14,7 +16,9 @@ function App() {
       {/* <UseStatewithObj /> */}
       {/* <DeleteBtn /> */}
       {/* <ShortCircuit/> */}
-      <Form />
+      {/* <Form /> */}
+      {/* <UseEffect1/> */}
+      <UseEffect2 />
     </div>
   );
 }

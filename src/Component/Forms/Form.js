@@ -15,13 +15,17 @@ const Form = () => {
     }
     const submt = (e)=>{
         e.preventDefault();
-      const currentUser = {
+        if (email && pass) {
+         
+          const currentUser = {
         email : email, password : pass 
       };
       setAlluser([...allUser,currentUser]);
       setEmail('');
       setPass('');
-      
+        }else{
+          alert('please enter some input');
+        }
     }
   return (
     <>
